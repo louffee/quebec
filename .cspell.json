@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/packages/cspell-types/cspell.schema.json",
+  "ignorePaths": [
+    "**/node_modules/**",
+    "**/vscode-extension/**",
+    "**/.git/**",
+    ".vscode",
+    "megalinter",
+    "package-lock.json",
+    "report",
+    "!packages/**/src/**"
+  ],
+  "language": "en",
+  "noConfigSearch": true,
+  "words": [
+    "cacheable",
+    "Louffee",
+    "Quebéc",
+    "renovatebot"
+  ],
+  "version": "0.2"
+}

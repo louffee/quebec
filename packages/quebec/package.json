@@ -1,0 +1,13 @@
+{
+  "name": "quebec",
+  "version": "0.1.0",
+  "main": "build/cjs/index.js",
+  "module": "build/esm/index.js",
+  "types": "build/types/index.d.ts",
+  "license": "MIT",
+  "repository": "git@github.com:louffee/quebec.git",
+  "author": "Louffee Dev. Team <team@louffee.dev>",
+  "scripts": {
+    "build": "rimraf build && rollup -c ../../rollup.config.js"
+  }
+}
