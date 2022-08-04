@@ -10,9 +10,12 @@
   "private": true,
   "author": "Louffee Dev. Team <team@louffee.dev>",
   "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
     "@rollup/plugin-commonjs": "^22.0.1",
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@rollup/plugin-typescript": "^8.3.4",
+    "husky": "^8.0.1",
     "lerna": "^5.0.0",
     "renovate": "^32.143.1",
     "rimraf": "^3.0.2",
