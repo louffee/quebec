@@ -7,3 +7,5 @@ export { default as debounce } from "./debounce/debounce";
 export { default as DebounceFunction } from "./debounce/DebounceFunction";
 
 export { default as readonlyArray } from "./readonlyArray/readonlyArray";
+
+export { default as deepCompare } from "./deepCompare/deepCompare";
