@@ -4,6 +4,9 @@
   "main": "build/cjs/index.js",
   "module": "build/esm/index.js",
   "types": "build/types/index.d.ts",
+  "files": [
+    "build"
+  ],
   "license": "MIT",
   "repository": "git@github.com:louffee/quebec.git",
   "author": "Louffee Dev. Team <team@louffee.dev>",
