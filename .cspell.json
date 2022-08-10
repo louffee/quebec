@@ -14,8 +14,12 @@
   "noConfigSearch": true,
   "words": [
     "cacheable",
+    "camelcase",
     "commitlint",
+    "isnan",
+    "linebreak",
     "Louffee",
+    "proptypes",
     "Quebéc",
     "renovatebot"
   ],
