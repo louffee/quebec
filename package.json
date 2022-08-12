@@ -10,13 +10,18 @@
   "private": true,
   "author": "Louffee Dev. Team <team@louffee.dev>",
   "devDependencies": {
+    "@babel/preset-env": "^7.18.10",
+    "@babel/preset-typescript": "^7.18.6",
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
     "@rollup/plugin-commonjs": "^22.0.1",
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@rollup/plugin-typescript": "^8.3.4",
+    "@types/jest": "^28.1.6",
     "@typescript-eslint/eslint-plugin": "^5.33.0",
     "@typescript-eslint/parser": "^5.33.0",
+    "babel-jest": "^28.1.3",
+    "cypress": "^10.4.0",
     "eslint": "^8.21.0",
     "eslint-plugin-compat": "^4.0.2",
     "eslint-plugin-import": "^2.26.0",
@@ -28,6 +33,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-native": "^4.0.0",
     "husky": "^8.0.1",
+    "jest": "^28.1.3",
     "lerna": "^5.0.0",
     "renovate": "^32.143.1",
     "rimraf": "^3.0.2",
@@ -35,6 +41,7 @@
     "rollup-plugin-dts": "^4.2.2",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-terser": "^7.0.2",
+    "ts-jest": "^28.0.7",
     "typescript": "^4.7.4"
   },
   "workspaces": [
@@ -42,6 +49,12 @@
   ],
   "scripts": {
     "build": "npx lerna run build",
-    "publish": "npx lerna publish"
+    "publish": "npx lerna publish",
+    "test": "jest --verbose",
+    "test:watch": "yarn run test --watch",
+    "test-e2e": "cypress run",
+    "test-e2e:chrome": "cypress run --browser chrome",
+    "test-e2e:edge": "cypress run --browser edge",
+    "test-e2e:firefox": "cypress run --browser firefox"
   }
 }
