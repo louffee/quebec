@@ -13,5 +13,10 @@
   "scripts": {
     "build": "rimraf build && rollup -c ../../rollup.config.js"
   },
-  "gitHead": "6df5d09caceff13b66ecc5e90575ec7604130b36"
+  "gitHead": "6df5d09caceff13b66ecc5e90575ec7604130b36",
+  "dependencies": {
+    "@types/debug": "^4.1.7",
+    "dayjs": "^1.11.4",
+    "debug": "^4.3.4"
+  }
 }
