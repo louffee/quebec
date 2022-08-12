@@ -16,6 +16,7 @@
     "cacheable",
     "camelcase",
     "commitlint",
+    "compat",
     "endregion",
     "isnan",
     "linebreak",
