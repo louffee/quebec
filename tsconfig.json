@@ -11,7 +11,7 @@
     "esModuleInterop": true,
     "target": "es5",
     "allowSyntheticDefaultImports": true,
-    "types": ["node"],
+    "types": ["node", "@types/jest"],
   },
   "exclude": [
     "node_modules"
