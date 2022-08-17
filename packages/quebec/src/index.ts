@@ -72,3 +72,6 @@ export { default as isFloat } from './isFloat/isFloat'
 export { default as isInteger } from './isInteger/isInteger'
 export { default as isObject } from './isObject/isObject'
 export { default as isString } from './isString/isString'
+
+export { default as hasProp } from './hasProp/hasProp'
+export { default as hasProps } from './hasProps/hasProps'
