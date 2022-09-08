@@ -75,3 +75,15 @@ export { default as isString } from './isString/isString'
 
 export { default as hasProp } from './hasProp/hasProp'
 export { default as hasProps } from './hasProps/hasProps'
+
+export { default as assert } from './assert/assert'
+export { default as AssertionException } from './assert/AssertionException'
+export { default as AssertionOptions } from './assert/AssertionOptions'
+export { default as AssertionOutcome } from './assert/AssertionOutcome'
+
+export { default as weakSet } from './weakSet/weakSet'
+
+export { default as map } from './map/map'
+export { default as weakMap } from './weakMap/weakMap'
+
+export { default as scrollTo } from './browser-compatibility/scrollTo/scrollTo'
