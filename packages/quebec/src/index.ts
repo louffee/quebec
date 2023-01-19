@@ -28,6 +28,7 @@ export { default as userAgentDevice } from './browser-compatibility/userAgentDev
 export { default as isBrowserTabFocused } from './browser-compatibility/isBrowserTabFocused/isBrowserTabFocused'
 export { default as AbstractBrowserKeyAlias } from './browser-compatibility/AbstractBrowserKeyAlias'
 export { default as BrowserType } from './browser-compatibility/BrowserType'
+export { default as scrollTo } from './browser-compatibility/scrollTo/scrollTo'
 
 // #endregion
 
@@ -85,5 +86,4 @@ export { default as weakSet } from './weakSet/weakSet'
 
 export { default as map } from './map/map'
 export { default as weakMap } from './weakMap/weakMap'
-
-export { default as scrollTo } from './browser-compatibility/scrollTo/scrollTo'
+export { default as deepmerge } from './deepmerge/deepmerge'
