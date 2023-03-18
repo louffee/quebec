@@ -1,4 +1,4 @@
-function isArray(possibleArray: any): boolean {
+function isArray<TPossibleArray>(possibleArray: TPossibleArray): boolean {
   return Array.isArray(possibleArray)
 }
 
